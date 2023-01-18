@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+}
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid rgb(135, 33, 33);
+    border-radius: 9px;
+    cursor: pointer;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    width: 290px;
+    margin: 0;
+    font-size: 19px;
+    padding: 10px 0;
+    border: 2px solid rgb(135, 33, 33);
+    border-radius: 9px;
+}
+.button-bg{
+    background-color: yellow;
+}
+.box{
+    position: relative;
+    width: 380px;
+    height: 440px;
+    padding: 4rem 2rem 2rem 2rem;
+    border: 5px solid rgb(135, 33, 33);
+    border-radius: 2.5rem;
+    background: black;
+    box-shadow: 13px 13px 20px #cbced1,
+        -13px -13px 20px #ffffff;
+    overflow: hidden;
+}
+h1{
+    color: #ffffff;
+}
+.erase{
+    width: 290px;
+    margin: 0; 
+    padding: 10px 0;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+.button:hover{
+    background-color: #3E5151;
+    font-size: larger;
+    font-weight: bolder;
+}
+.button-bg:hover{
+    background-color: beige;
+}
